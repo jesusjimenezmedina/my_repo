@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head>
+DOCTYPE html><html><head>
 
 <title>Calculator</title><meta charset="utf-8">
 
@@ -16,6 +16,14 @@ function sine(){
 var num1 = document.getElementById("n1");
 num1.value = Math.sin(num1.value);
 }
+
+function fourth() {
+
+var num2 = document.getElementById("n1");
+num2.value = Math.pow(num2.value, 4);
+
+}
+
 </script>
 
 </head>
@@ -28,6 +36,7 @@ Number:
 
 <button onclick="cube()"> x^3 </button>
 <button onclick="sine()"> sin(x) </button>
+<button onclick="fourth()"> x^4 </button>
 
 </body>
 <h1>Calculadora de Jesús J. Jiménez Medina</h1>
